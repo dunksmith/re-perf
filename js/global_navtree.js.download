@@ -1,0 +1,35 @@
+var global_navtree = WpNavBar.readTree({
+"childArray" : [
+{   sTitle:'Home',
+    bIsWebPath:true,
+    sUrl:' index.html'
+},
+{   sTitle:'About Us',
+    bIsWebPath:true,
+    sUrl:'about us.html',"childArray" : [
+    {   sTitle:'injectors',
+        bIsWebPath:true,
+        sUrl:'page8.html'
+    }]
+},
+{   sTitle:'Gallery',
+    bIsWebPath:true,
+    sUrl:'gallery.html',"childArray" : [
+    {   sTitle:'classic',
+        bIsWebPath:true,
+        sUrl:'classic.html'
+    }]
+},
+{   sTitle:'links',
+    bIsWebPath:true,
+    sUrl:'links.html'
+},
+{   sTitle:'Contact Us',
+    bIsWebPath:true,
+    sUrl:'contact us.html'
+},
+{   sTitle:'Products',
+    bIsWebPath:true,
+    sUrl:'page4.html'
+}]
+});
